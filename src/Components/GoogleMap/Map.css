@@ -1,0 +1,16 @@
+.map-wrapper{
+    height: 500px;
+}
+
+@media (max-width: 500px) {
+    .modal-body{
+        width: 500x !important;
+        margin-bottom: 30px;
+    }
+    .map-wrapper{
+        height: 375px;
+    }
+    .modal-dialog{
+        margin-top: 40px;
+    }
+  }

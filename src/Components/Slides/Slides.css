@@ -1,0 +1,41 @@
+.carousel-inner {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+.about h1 {
+  text-align: center;
+}
+.about > div {
+  font-size: 19px;
+}
+.text {
+  text-align: center;
+}
+.about {
+  margin-top: 25px;
+}
+.carousel-control-next, .carousel-control-prev {
+  position: fixed;
+  top: 50px;
+  height: 200px;
+  width: 5%
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 30px;
+  height: 30px;
+  background-color: #434343;
+}
+.carousel-indicators {
+  position: absolute;
+  bottom: -50px
+}
+.carousel-indicators li {
+  background-color : #434343;
+}
+
+@media (max-width: 650px) {
+  .carousel {
+    margin-top: 50px;
+  }
+}
