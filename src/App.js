@@ -10,8 +10,6 @@ import Prediction from "./Components/Prediction/Prediction";
 import HomeImages from "./Components/HomeImages/HomeImages";
 import UserHistory from "./Components/UserHistory/UserHistory";
 
-export const BASE_URL = process.env.REACT_APP_BASE_URL;
-
 function App() {
   const [isLogged, setIsLogged] = useState(null);
   const token = localStorage.getItem("token");

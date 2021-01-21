@@ -1,17 +1,7 @@
-import {
-  Container,
-  Card,
-  Form,
-  Button,
-  Dropdown,
-  Row,
-  Col,
-} from "react-bootstrap";
+import {Card} from "react-bootstrap";
 import './Prediction.css';
 import { useLocation } from "react-router-dom";
 import MapsModal from "../GoogleMap/mapsModal";
-import axios from "axios";
-import {BASE_URL} from '../../App'
 import { useEffect, useState } from "react";
 
 const Prediction = (props) => {

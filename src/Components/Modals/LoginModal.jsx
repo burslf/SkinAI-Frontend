@@ -1,7 +1,6 @@
 import axios from 'axios'
 import { useContext, useState } from 'react'
 import {Form, Button} from 'react-bootstrap'
-import {BASE_URL} from '../../App'
 import { faTimes } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Authentication } from '../../Contexts/Authentication'
